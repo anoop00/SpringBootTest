@@ -13,6 +13,7 @@ public class SpringBootTestApplication {
 		SpringApplication.run(SpringBootTestApplication.class, args);
 	}
 	
+	
 	@GetMapping("/pipeline")
 	public String message() {
 		return "First Pipeline";
