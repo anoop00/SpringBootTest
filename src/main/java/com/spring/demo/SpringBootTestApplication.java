@@ -16,7 +16,7 @@ public class SpringBootTestApplication {
 	
 	@GetMapping("/pipeline")
 	public String message() {
-		return "First Pipeline";
+		return "First Pipeline Code";
 	}
 
 }
